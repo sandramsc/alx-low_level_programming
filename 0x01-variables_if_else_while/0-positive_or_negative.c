@@ -6,6 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Positive anything is better than negative nothing
+ * Return: Always 0
  */
 int main(void)
 {
