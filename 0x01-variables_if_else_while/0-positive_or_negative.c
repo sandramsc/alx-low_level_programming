@@ -3,6 +3,12 @@
 #include <time.h>
 /* more headers goes there */
 
+/**
+ * main - Entry point
+ *
+ * Description: 'Positive anything is better than negative nothing'
+*/
+
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -14,7 +20,6 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	
 	}
 	else if (n == 0)
 	{
