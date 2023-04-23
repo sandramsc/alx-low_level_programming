@@ -15,7 +15,7 @@ int main(void)
 	/*the first digit ranges from 0 to 8*/
 	for (i = 0; i < 9; i++)
 	{
-		for (j = i+1; j < 10; j++)
+		for (j = i + 1; j < 10; j++)
 		{
 			/*the second digit ranges from i+1 to 9*/
 			putchar(i + '0');
@@ -24,7 +24,7 @@ int main(void)
 			if (i < 8 || j < 9)
 			{
 				putchar(',');
-                		putchar(' ');
+				putchar(' ');
 			}
 		}
 	}
