@@ -25,6 +25,6 @@ int main(void)
 	}
 	/*print the final character*/
 	putchar('\n');
-			
+
 return (0);
 }
