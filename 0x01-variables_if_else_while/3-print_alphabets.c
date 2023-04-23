@@ -12,6 +12,7 @@ int main(void)
 {
 	/* Printing the lowercase alphabet */
 	char c = 'a';
+
 	while (c <= 'z')
 	{
 		putchar(c);
@@ -24,5 +25,6 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-return(0);
+
+return (0);
 }
