@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
 /**
  * main - 10 x alphabet
  *
@@ -20,5 +19,6 @@ int main(void)
                 }
         putchar('\n');
         }
+
 return (0);
 }
