@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_sign  - Sign
+ * print_sign  - Sign
  * @c: The charcter that needs to be checked
  * Return: 1 for lowercase characteror 0 for anything else
  */
