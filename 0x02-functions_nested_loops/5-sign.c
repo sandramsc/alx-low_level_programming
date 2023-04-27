@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign  - Sign
- * @c: The charcter that needs to be checked
+ * @n: The charcter that needs to be checked
  * Return: 1 for positive num, -1 for anything else
  */
 int print_sign(int n)
