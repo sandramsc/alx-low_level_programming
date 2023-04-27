@@ -6,9 +6,9 @@
  * main - I sometimes suffer from insomnia. And when I can't fall asleep,
  * I play what I call the alphabet game
  *
- * Return: Always 0
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
@@ -17,6 +17,4 @@ int main(void)
 		putchar(c);
 	}
 	putchar('\n');
-
-return (0);
 }
