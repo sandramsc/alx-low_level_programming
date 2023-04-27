@@ -2,12 +2,12 @@
 
 /**
  * _isdigit - Looks to see if a character is a digit
- * @c: The number beingchecked
+ * @x: The number that needs to be evaluated
  * Return: 1 for a digit character and 0 for anything else
  */
-int _isdigit(int c)
+int _isdigit(int x)
 {
-	if (c >= 48 && c <=57)
+	if (x >= 48 && x <= 57)
 	{
 		return (1);
 	}
