@@ -8,8 +8,9 @@ int main(void)
 {
 	long int num = 612852475143;
 	long int largest_factor = 0;
+	long int i;
 
-	for (long int i = 2; i <= num; i++)
+	for (i = 2; i <= num; i++)
 	{
 	while (num % i == 0)
 	{
