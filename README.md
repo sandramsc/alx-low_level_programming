@@ -43,7 +43,7 @@ introduction to shell/linux/git/c programming and the world that is alx software
 
 2. Intro to Linux, Emacs and VIM
 
-2. Intro to Low leve programing
+2. Intro to Low level programing
 
 **Step #1** - Clone the project
 
