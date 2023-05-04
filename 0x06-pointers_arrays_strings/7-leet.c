@@ -6,6 +6,7 @@
 /**
  * leet - A program  that encodes a string into 1337
  * Return: A pointer to the converted string
+ * @s: string
  */
 
 char *leet(char *s)
