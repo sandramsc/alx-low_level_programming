@@ -2,33 +2,26 @@
 
 /**
  * leet - A program  that encodes a string into 1337
- * Return: leet value
- * @s: string
+ * @n: The input value
+ * Return: The value n
  */
 
-char *leet(char *s)
+char *leet(char *n)
 {
-	static char leeted[100];
-	int i, j, k;
-	char c;
+	int a, b;
+	char s1[] = "aAEeoOtTlL";
+	char s2[] = "4433007711";
 
-	char replacements[5][2] = { {'a', '4'}, {'e', '3'},
-	{'o', '0'}, {'t', '7'}, {'l', '1'} };
-
-	for (i = 0, j = 0; s[i] != '\0'; i++, j++)
+	for (a = 0; n[a] != '\0'; a++)
 	{
-	c = s[i];
-
-	for (k = 0; k < 5; k++)
+	for (b = 0; b < 10; b++)
 	{
-	if (c == replacements[k][0] || c == replacements[k][0] - ('a' - 'A'))
+	if (n[a] == s1[b])
 	{
-	c = replacements[k][1];
-	break;
+	n[a] = s2[b];
 	}
 	}
-	leeted[j] = c;
 	}
-	leeted[j] = '\0';
-	return (leeted);
+
+return (n);
 }
