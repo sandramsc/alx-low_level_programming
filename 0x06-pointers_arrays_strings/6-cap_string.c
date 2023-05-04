@@ -20,18 +20,20 @@ char *cap_string(char *str)
 	for (i = 0; i < len; i++)
 	{
 	char c = str[i];
+
 	if (isspace(c) || c == ',' || c == ';' || c == '.' ||
 	c == '!' || c == '?' || c == '"' || c == '(' ||
 	c == ')' || c == '{' || c == '}')
 	{
 	/* next character should be capitalized */
 	cap_next = 1;
-        } else if (cap_next)
+	}
+	else if (cap_next)
 	{
 	str[i] = toupper(c);
 	cap_next = 0;
 	}
 	}
 
-	return str;
+	return (str);
 }
