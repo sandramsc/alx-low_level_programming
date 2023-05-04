@@ -5,23 +5,32 @@
 
 /**
  * leet - A program  that encodes a string into 1337
- * @str: The string to be encoded
  * Return: A pointer to the converted string
  */
 
-char *leet(char *str)
+char *leet(char *s)
 {
-	char *p = str;
+	static char leeted[100];
+	int i, j, k;
+	char c;
 
-	while (*p)
+	char replacements[5][2] = { {'a', '4'}, {'e', '3'},
+	{'o', '0'}, {'t', '7'}, {'l', '1'} };
+
+	for (i = 0, j = 0; s[i] != '\0'; i++, j++)
 	{
-	*p = (*p == 'a' || *p == 'A') ? '4' :
-	(*p == 'e' || *p == 'E') ? '3' :
-	(*p == 'o' || *p == 'O') ? '0' :
-	(*p == 't' || *p == 'T') ? '7' :
-	(*p == 'l' || *p == 'L') ? '1' :
-	*p;
-	p++;
+	c = s[i];
+
+	for (k = 0; k < 5; k++)
+	{
+	if (c == replacements[k][0] || c == replacements[k][0] - ('a' - 'A'))
+	{
+	c = replacements[k][1];
+	break;
 	}
-	return (str);
+	}
+	leeted[j] = c;
+	}
+	leeted[j] = '\0';
+	return (leeted);
 }
