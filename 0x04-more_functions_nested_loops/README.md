@@ -6,6 +6,6 @@
 
 ### Learning Objectives
 
-1. Nested loops and how to use them
-2. Prototypes & variables
-3. Header files
+1. Pointers and how to use them
+2. Arrays and how to use them
+3. How to use stringsand how to manipulation them
