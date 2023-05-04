@@ -5,6 +5,7 @@
  * _strncat - A program that concatenates two strings
  * @dest: Pointer to the destination buffer.
  * @src: Pointer to the source string
+ * @n: The number of bytes fromsrc to be appended to dest
  * Return: A pointer to the resulting string dest
  */
 
