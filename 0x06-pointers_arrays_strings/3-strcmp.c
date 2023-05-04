@@ -3,9 +3,11 @@
 #include <string.h>
 /**
  * _strcmp - A program that copies a string
- * @dest: Pointer to the destination buffer.
- * @src: Pointer to the source string
- * Return: A pointer to the resulting string dest
+ * @s1: A pointer to the first string to be compared
+ * @s2: A pointer to the secong string to be compared
+ * Return: If str1 < str3 , the negative difference of the first unmatched characters.
+ * If str1 == str2, 0;
+ * If str1 > str2, the positive difference of the first unmatched characters
  */
 int _strcmp(char *s1, char *s2)
 {
