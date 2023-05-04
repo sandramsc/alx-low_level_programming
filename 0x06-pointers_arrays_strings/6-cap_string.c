@@ -12,16 +12,26 @@
 char *cap_string(char *str)
 {
 	int len = strlen(str);
+	int i;
 
-	char *new_str = (char *) malloc(len + 1);
-	int i = 0;
+	/* capitalize the next character */
+	int cap_next = 1;
 
-	while (*str)
+	for (i = 0; i < len; i++)
 	{
-	new_str[i] = (i == 0 || isspace(*(str - 1))
-	|| strchr(",;.!?\"(){}", *(str - 1))) ? toupper(*str) : *str;
-	i++;
+	char c = str[i];
+	if (isspace(c) || c == ',' || c == ';' || c == '.' ||
+	c == '!' || c == '?' || c == '"' || c == '(' ||
+	c == ')' || c == '{' || c == '}')
+	{
+	/* next character should be capitalized */
+	cap_next = 1;
+        } else if (cap_next)
+	{
+	str[i] = toupper(c);
+	cap_next = 0;
 	}
-	new_str[i] = '\0';
-	return (new_str);
+	}
+
+	return str;
 }
