@@ -1,11 +1,8 @@
 #include "main.h"
-#include <ctype.h>
-#include <string.h>
-#include <stdlib.h>
 
 /**
  * leet - A program  that encodes a string into 1337
- * Return: A pointer to the converted string
+ * Return: leet value
  * @s: string
  */
 
