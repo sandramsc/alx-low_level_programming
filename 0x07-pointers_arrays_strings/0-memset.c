@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  _memset- A program that
+*  _memset - Entry point
 * @n: number of bytes
 * @s: memory area
 * @b: the value to be filled in
