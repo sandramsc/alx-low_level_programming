@@ -11,8 +11,8 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	char *p = dest;
 
-	/* Use a pointer tothe dest buffer and copy
-	each byte of the src buffer into it */
+	/* Use a pointer tothe dest buffer and copy..*/
+	/*..each byte of the src buffer into it */
 	while (n--)
 	{
 	*p++ = *src++;
