@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-*  _strchr- A program that locates a character in a string
+*  _strchr - A program that locates a character in a string
 * @s: input string
 * @c: character to be located
 * @n: number of bytes to copy
