@@ -3,7 +3,7 @@
 *  _memset- A program that
 * @n: number of bytes
 * @s: memory area
-* Return: pointer to the memory area s
+* Return: Always 0 (Success)
 */
 
 char *_memset(char *s, char b, unsigned int n)
