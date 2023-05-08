@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  _memcpy - A program that
+*  _memcpy - Entry point
 * @src: Pointer to the source string
 * @dest: Pointer to the destination buffer
 * @n: number of bytes to copy
