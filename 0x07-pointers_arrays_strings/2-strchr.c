@@ -20,7 +20,7 @@ char *_strchr(char *s, char c)
 	}
 	/* increment the pointer to the next character in the string */
 	s++;
+	}
 
-}
 return (NULL);
 }
