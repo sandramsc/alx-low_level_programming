@@ -3,6 +3,7 @@
 *  _memset- A program that
 * @n: number of bytes
 * @s: memory area
+* @b: the value to be filled in
 * Return: Always 0 (Success)
 */
 
