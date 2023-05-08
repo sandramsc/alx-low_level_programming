@@ -5,7 +5,6 @@
 *  _strchr - A program that locates a character in a string
 * @s: input string
 * @c: character to be located
-* @n: number of bytes to copy
 * Return: Always 0 (Success)
 */
 
