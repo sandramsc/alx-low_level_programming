@@ -23,6 +23,9 @@ char *_strchr(char *s, char c)
 	/* increment the pointer to the next character in the string */
 	s++;
 	}
-
-return ('\0');
+	if (*s == c)
+	{
+	return s;
+	}
+return (NULL);
 }
