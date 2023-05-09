@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include <unistd.h>
 
 /**
 * print_chessboard - A program that prints the sum of the two
@@ -16,9 +14,7 @@
 void print_diagsums(int *a, int size)
 {
 	/* initialize two sums to zero */
-	int sum1 = 0;
-	int sum2 = 0;
-	int i;
+	int sum1 = 0, sum2 = 0, i;
 
 	/* iterate over the rows of the matrix */
 	for (i = 0; i < size; i++)
