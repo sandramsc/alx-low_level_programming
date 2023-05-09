@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_chessboard - A program that prints the sum of the two
+* print_diagsums - A program that prints the sum of the two
 * diagonals of a square matrix of integers
 * @a: pointer to the first element of the matrix
 * @sum1: first diagonal
