@@ -9,7 +9,8 @@
 * @sum1: first diagonal
 * @sum2: second diagonal
 * @size: matrix size
-* Return: nothing
+*
+* Return: void
 */
 
 void print_diagsums(int *a, int size)
@@ -17,7 +18,7 @@ void print_diagsums(int *a, int size)
 	/* initialize two sums to zero */
 	int sum1 = 0;
 	int sum2 = 0;
-	char buf[20];
+	char buf[100];
 	int i;
 
 	/* iterate over the rows of the matrix */
