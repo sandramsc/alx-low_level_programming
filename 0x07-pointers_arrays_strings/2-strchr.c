@@ -6,7 +6,8 @@
 *  _strchr - A program that locates a character in a string
 * @s: input string
 * @c: character to be located
-* Return: Always 0 (Success)
+* Return:  a pointer to the first occurrence of the character c in the
+* string s, or NULL if the character is not found
 */
 
 char *_strchr(char *s, char c)
@@ -23,5 +24,5 @@ char *_strchr(char *s, char c)
 	s++;
 	}
 
-return (NULL);
+return ('\0');
 }
