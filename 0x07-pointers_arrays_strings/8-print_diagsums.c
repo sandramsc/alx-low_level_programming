@@ -8,7 +8,7 @@
 * @sum2: second diagonal
 * @size: matrix size
 *
-* Return: void
+* Return: Always 0 (Success)
 */
 
 void print_diagsums(int *a, int size)
