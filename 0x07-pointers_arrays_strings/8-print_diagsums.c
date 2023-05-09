@@ -18,7 +18,6 @@ void print_diagsums(int *a, int size)
 	/* initialize two sums to zero */
 	int sum1 = 0;
 	int sum2 = 0;
-	char buf[100];
 	int i;
 
 	/* iterate over the rows of the matrix */
@@ -29,7 +28,6 @@ void print_diagsums(int *a, int size)
 	/*add element on diagonal from top right to bottom left to sum2 */
 	sum2 += *(a + i * size + (size - i - 1));
 	}
-	/* Print the sums using sprintf() */
-	sprintf(buf, "%d, %d\n", sum1, sum2);
-	write(STDOUT_FILENO, buf, strlen(buf));
+	/* Print the sums using printf() */
+	printf("%d, %d\n", sum1, sum2);
 }
