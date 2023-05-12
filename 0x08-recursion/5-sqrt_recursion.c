@@ -27,7 +27,8 @@ int _sqrt_recursion(int n)
 }
 }
 /**
- * sqrt_helper - Helper function to find the square root of n using binary search
+ * sqrt_helper - Helper function to find the square root
+ * of n using binary search
  * @n: the number to find the square root of
  * @start: the start of the range to search
  * @end: the end of the range to search
