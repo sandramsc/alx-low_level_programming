@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
-* _pow_recursion -  A program that returns the natural square root of a number
+* _sqrt_recursion -  A program that returns the natural square root of a number
 * @n: integer argument
 * @start: the strting values
 * @end: the end values
-* @mid: the middle values
 * @sqrt_helper: the helper function
 * Return: Always 0 (Success)
 */
