@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
-* is_prime_number -  A program that  returns 1 if the input integer is a prime number, otherwise return 0
-* 
+* is_prime_number -  A program that  returns 1 if the input
+* integer is a prime number, otherwise return 0
+*
 * Return: returns 1 if the input integer is a prime number, and 0 otherwise.
 */
 int is_prime_number(int n)
@@ -16,9 +17,10 @@ int is_prime_number(int n)
 return (is_prime_helper(n, 2));
 }
 /**
-* is_prime_helper -  a recursive helper function that takes in the number to be checked for primality as 
+* is_prime_helper -  a recursive helper function that takes in
+* the number to be checked for primality as
 * well as a divisor parameter that starts at 2
-* 
+*
 * Return: 0 if not a prime and 1 if itis a prime
 */
 
@@ -29,12 +31,12 @@ int is_prime_helper(int n, int divisor)
 	{
 	return (1);
 	}
-	
+
 	/*if the number is divisible by divisor, it is not a prime*/
 	if (n % divisor == 0)
 	{
 	return (0);
 	}
 	/*otherwise, recursively check the next divisor*/
-	return is_prime_helper(n, divisor + 1);
+	return (is_prime_helper(n, divisor + 1));
 }
