@@ -12,10 +12,17 @@
 
 int is_palindrome_helper(char *s, int start, int end)
 {
+	/*Base case: if the starting index is greater than or..*/
+	/*..equal to the ending index,..*/
+	/*..all the characters in the string have been checked, and they match..*/
+	/*..(or there are no characters)*/
 	if (start >= end)
 	{
 	return (1);
 	}
+	/*If the characters at the starting and ending indices match,*/
+	/*..recursively call the function with the starting index..*/
+	/*..incremented by 1 and the ending index decremented by 1*/
 	if (s[start] == s[end])
 	{
 	return (is_palindrome_helper(s, start + 1, end - 1));
@@ -34,6 +41,6 @@ int is_palindrome_helper(char *s, int start, int end)
 int is_palindrome(char *s)
 {
 	int len = strlen(s);
-	
-	return (is_palindrome_helper(s, 0, len -1));
+	/*Call the helper function with starting index 0 and ending index len-1*/
+	return (is_palindrome_helper(s, 0, len - 1));
 }
