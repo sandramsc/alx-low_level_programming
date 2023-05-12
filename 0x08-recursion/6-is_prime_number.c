@@ -4,7 +4,7 @@
 /**
 * is_prime_number -  A program that  returns 1 if the input
 * integer is a prime number, otherwise return 0
-*
+* @n: input integer
 * Return: returns 1 if the input integer is a prime number, and 0 otherwise.
 */
 int is_prime_number(int n)
@@ -27,7 +27,8 @@ return (is_prime_helper(n, 2));
 
 int is_prime_helper(int n, int divisor)
 {
-	/*base case: if the divisor reaches the square root ofthe number, the number is prime*/
+	/*base case: if the divisor reaches the square root..*/
+	/*..of the number, the number is prime*/
 	if (divisor * divisor > n)
 	{
 	return (1);
