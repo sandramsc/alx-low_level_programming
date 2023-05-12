@@ -20,7 +20,8 @@ return (is_prime_helper(n, 2));
 * is_prime_helper -  a recursive helper function that takes in
 * the number to be checked for primality as
 * well as a divisor parameter that starts at 2
-*
+* @n: input integer
+* @divisor: the divigning integer
 * Return: 0 if not a prime and 1 if itis a prime
 */
 
