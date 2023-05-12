@@ -30,11 +30,11 @@ int _sqrt_recursion(int n)
 int sqrt_helper(int n, int start, int end)
 {
 	/*guess the square root using binary search*/
-	int mid = (start + end) /2;
+	int mid = (start + end) / 2;
 	/*if the guess is too big, try a smaller range*/
 	if (mid > n / mid)
 	{
-	return sqrt_helper(n, start, mid - 1);
+	return (sqrt_helper(n, start, mid - 1));
 	}
 	/*if the guess is too small, try a bigger range*/
 	else if ((mid + 1) > n / (mid + 1))
@@ -43,7 +43,8 @@ int sqrt_helper(int n, int start, int end)
 	}
 	else
 	{
-	/*if the guessis accurate then continue recursion on the bigger half of the range*/
+	/*if the guessis accurate then continue recursion on..*/
+	/*..the bigger half of the range*/
 	return (sqrt_helper(n, mid + 1, end));
 }
 }
