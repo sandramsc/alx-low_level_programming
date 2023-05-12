@@ -4,8 +4,8 @@
 /**
 * _sqrt_recursion -  A program that returns the natural square root of a number
 * @n: integer argument
-* 
-* sqrt_helper: the helper function
+*
+* sqrt_helper - the helper function
 * Return: Always 0 (Success)
 */
 int _sqrt_recursion(int n)
