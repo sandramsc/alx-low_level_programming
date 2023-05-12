@@ -13,6 +13,7 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int sqrt_helper(int n, int start, int end);
+int is_prime_helper(int n, int div);
 
 /*Declare new prototypes here*/
 #endif
