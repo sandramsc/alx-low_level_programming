@@ -1,12 +1,13 @@
-#include "main.h"
+#include "main.h"i
 #include <string.h>
 #include <stdio.h>
 
 /**
-* is_palindrome -  a program that returns 1
+* is_palindrome_helper -  a program that returns 1
 * if a string is a palindrome and 0 if not
-* @start: the string to check
-* @end: integer
+* @start: start of string
+* @end: end of string
+* @s: string to check
 * Return: 1 if the string is a palindrome, 0 otherwise
 */
 
