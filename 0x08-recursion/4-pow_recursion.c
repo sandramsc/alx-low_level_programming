@@ -5,6 +5,8 @@
 * _pow_recursion -  A program that returns the value of x
 * raised to the power of y
 * @n: integer argument
+* @x: return value
+* @y: the power
 * Return: Always 0 (Success)
 */
 int _pow_recursion(int x, int y)
