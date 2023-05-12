@@ -2,17 +2,11 @@
 #include <stdio.h>
 
 /**
- *  _sqrt_recursion - a program that returns the natural
- *  square root of a number
- * sqrt_helper - helper function for _sqrt_recursion
+ * _sqrt_recursion - A program that returns the natural square root of a number
+ * @n: integer argument
  *
- * @n: the number to find the square root of
- * @start: the start of the range to search
- * @end: the end of the range to search
- *
- * Return: the square root of n if it exists, otherwise -1
+ * Return: The square root of n if it exists, otherwise -1
  */
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -32,7 +26,14 @@ int _sqrt_recursion(int n)
 
 }
 }
-
+/**
+ * sqrt_helper - Helper function to find the square root of n using binary search
+ * @n: the number to find the square root of
+ * @start: the start of the range to search
+ * @end: the end of the range to search
+ *
+ * Return: the square root of n if it exists, otherwise -1
+ */
 int sqrt_helper(int n, int start, int end)
 {
 	/*guess the square root using binary search*/
