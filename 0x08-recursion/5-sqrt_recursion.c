@@ -9,7 +9,6 @@
 * @sqrt_helper: the helper function
 * Return: Always 0 (Success)
 */
-int sqrt_helper(int n, int start, int end);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
