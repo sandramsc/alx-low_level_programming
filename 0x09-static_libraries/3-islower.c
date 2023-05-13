@@ -4,6 +4,7 @@
 /**
  * _islower - description
  */
-int _islower(int c) {
-    return isupper(c);
+int _islower(int c)
+{
+        return (0);
 }

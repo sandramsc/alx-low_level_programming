@@ -1,9 +1,10 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
 
 /**
- * _islower - description
+ * _isupper - description
  */
-int _islower(int c) {
-    return _isupper(c);
+int _isupper(int c)
+{
+	return (0);
 }
