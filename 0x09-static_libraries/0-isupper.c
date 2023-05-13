@@ -5,5 +5,5 @@
  * _islower - description
  */
 int _islower(int c) {
-    return isupper(c);
+    return _isupper(c);
 }

@@ -1,1 +1,9 @@
-int _islower(int c);
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _islower - description
+ */
+int _islower(int c) {
+    return isupper(c);
+}
