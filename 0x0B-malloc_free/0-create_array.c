@@ -3,13 +3,12 @@
 #include "main.h"
 
 /**
-* create_array - A program that creates an array of chars,
-* and initializes it with a specific char
-* @c: the character used for initialization
-* @size: unsigned integer representing the size of the array
-* @array: the arrray
-* Return - a pointer to the initialized array, or NULL if it fails
-*/
+ * create_array - Creates an array of characters and initializes it with a specific character.
+ * @size: The size of the array.
+ * @c: The character to initialize the array with.
+ *
+ * Return: Pointer to the created and initialized array, or NULL if it fails.
+ */
 char *create_array(unsigned int size, char c)
 {
 
