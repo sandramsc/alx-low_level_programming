@@ -5,31 +5,35 @@
 /**
 * create_array - A program that creates an array of chars,
 * and initializes it with a specific char
-* @c: the character
-* @size: the size of the arrays
+* @c: the character used for initialization
+* @size: unsigned integer representing the size of the array
 *
-* Return - a pointer to the array, or NULL if it fails
+* Return - a pointer to the initialized array, or NULL if it fails
 */
 char *create_array(unsigned int size, char c)
 {
 
 	unsigned int i;
+	/*Declare pointer variable to store the array*/
 	char *array;
 
 	if (size == 0)
 	{
+		/*Return NULL if size is 0, as an array of size 0 is not meaningful or makes no sense*/
 		return (NULL);
 	}
+	/*Allocate memory for the array using malloc*/
 	array = (char *)malloc(sizeof(char) * size);
+	/*Return NULL if memory allocation fails*/
 	if (array == NULL)
 	{
 	return (NULL);
 	}
-
+	/*Initialize each each element ofthe array with the provided character*/
 	for (i = 0; i < size; i++)
 	{
 		array[i] = c;
 	}
-
+	/*Return the pointer to the created and initialized array*/
 	return (array);
 }
