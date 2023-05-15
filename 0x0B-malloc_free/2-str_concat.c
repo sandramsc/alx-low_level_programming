@@ -6,8 +6,8 @@
  * str_concat - Concatenates two strings
  * @concat_str: The concatenated string.
  * @newStr: The new string
- * @s1_len: Length of string 1
- * @s1_len: Length of string 1
+ * @s1: First string
+ * @s2: Second string
  * Return: NULL if the str is equal to NULL.
  */
 char *str_concat(char *s1, char *s2)
