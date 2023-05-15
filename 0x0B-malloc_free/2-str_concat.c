@@ -3,8 +3,7 @@
 #include "main.h"
 
 /**
- * str_concat - Concatenates two strings
- * 
+ * str_concat - Concatenates two strings 
  * @s1: First string
  * @s2: Second string
  * Return: NULL if the str is equal to NULL.
