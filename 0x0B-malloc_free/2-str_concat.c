@@ -4,8 +4,7 @@
 
 /**
  * str_concat - Concatenates two strings
- * @concat_str: The concatenated string.
- * @newStr: The new string
+ * 
  * @s1: First string
  * @s2: Second string
  * Return: NULL if the str is equal to NULL.
