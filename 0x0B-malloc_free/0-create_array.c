@@ -7,7 +7,7 @@
 * and initializes it with a specific char
 * @c: the character used for initialization
 * @size: unsigned integer representing the size of the array
-*
+* @array: the arrray
 * Return - a pointer to the initialized array, or NULL if it fails
 */
 char *create_array(unsigned int size, char c)
@@ -19,7 +19,8 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 	{
-		/*Return NULL if size is 0, as an array of size 0 is not meaningful or makes no sense*/
+		/*Return NULL if size is 0, as an array of size 0...*/
+	       /*..is not meaningful or makes no sense*/
 		return (NULL);
 	}
 	/*Allocate memory for the array using malloc*/
