@@ -4,7 +4,8 @@
 #include "main.h"
 /**
  * argstostr - concatenates all the arguments of your program.
- * @current_index: The current index
+ * @av: integer
+ * @ac: character string
  * Return: Pointer to a new string, or NULL if it fails
  */
 char *argstostr(int ac, char **av)
@@ -36,5 +37,4 @@ char *argstostr(int ac, char **av)
 	}
 	result[current_index] = '\0';
 	return (result);
-
 }
