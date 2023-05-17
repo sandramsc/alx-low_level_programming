@@ -11,12 +11,10 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	(void) argv;
+	
+	/*Subtract 1 to exlude the program name*/
+	printf("%d\n", argc - 1);
 
-	for (i = 0; i < argc; i++)
-	{
-		printf("%d\n", i);
-	}
 	return (0);
 }
