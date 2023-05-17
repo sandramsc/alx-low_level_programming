@@ -1,8 +1,10 @@
 #include <stdio.h>
 /*
-* main -a program to print the program name, even when
-* file name is changed
-*/
+ * main - This program prints the name of 
+ * the executable file followed by a new line.
+ * If the name of the file is changed, the program will print the new name
+ * without having to recompile the program.
+ */
 int main(int argc, char *argv[])
 {
 	/*To suppress unused parameter warning*/
