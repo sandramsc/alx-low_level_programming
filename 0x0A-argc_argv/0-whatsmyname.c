@@ -4,6 +4,8 @@
  * the executable file followed by a new line.
  * If the name of the file is changed, the program will print the new name
  * without having to recompile the program.
+ *
+ * @argc: The number of command line arguments and the size of the argv array
  */
 int main(int argc, char *argv[])
 {
