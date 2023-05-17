@@ -8,9 +8,6 @@
  * Description: This program prints all the arguments it receives.
  *
  * Parameters:
- * @val1: First value
- * @val2: Second value
- * @result: The result
  * @argv: An array of strings containing the command line arguments
  * @argc: The number of command line arguments and the size of the argv array
  *
@@ -29,6 +26,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
+	/*Use atoi function for multiplication*/
 	val1 = atoi(argv[1]);
 	val2 = atoi(argv[2]);
 
