@@ -1,5 +1,6 @@
+#include <limits.h>
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * malloc_checked - Entry point of the program
@@ -9,15 +10,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *ptr;
-	(void) b;
-
-	ptr = (int *) malloc(sizeof(int));
+	void *ptr = malloc(b);
 
 	if (ptr == NULL)
 	{
 		exit(98);
 	}
-	
+
 	return (ptr);
 }
