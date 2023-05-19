@@ -2,15 +2,15 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * malloc_checked - Entry point of the program
+ * malloc_checked - Allocates memory using malloc
  *
- * Description: This program allocates memory using malloc.
+ * Description: This function allocates memory using malloc.
  *
- * Parameters:
- * @ptr: pointer where memory is allocated
+ * @b: size of memory to allocate
  *
- * Return: Always 0 (Success)
+ * Return: Pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
