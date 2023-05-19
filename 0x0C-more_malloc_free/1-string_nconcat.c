@@ -11,6 +11,7 @@
  * ...space in memory, which contains s1, followed by the first n bytes
  * ...of s2, and null terminated.
  *
+ * @n: number of bytes
  * @s1: first string
  * @s2: second string
  *
@@ -38,6 +39,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	concat_len = s1_len + s2_len;
 	concat_str = malloc((concat_len + 1 + n) * sizeof(char));
 
+	if (n >= s2_len)
+	{
+		n = s2_len;
+	}
 	if (concat_str == NULL)
 	{
 		return (NULL);
