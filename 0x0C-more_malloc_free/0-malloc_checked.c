@@ -5,7 +5,7 @@
 /**
  * malloc_checked - Entry point of the program
  * Description: This program allocates memory using malloc.
- *
+ * @ptr: pointer where memory is allocated
  * Return: A pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
