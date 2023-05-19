@@ -9,7 +9,6 @@
  *
  * Parameters:
  * @ptr: pointer where memory is allocated
- * @b: the size of the memory to be allocated in bytes
  *
  * Return: Always 0 (Success)
  */
