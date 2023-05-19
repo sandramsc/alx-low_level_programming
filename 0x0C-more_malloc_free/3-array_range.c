@@ -5,8 +5,8 @@
 /**
  * array_range - This function that creates an array of integers.
  *
- * Description: The array created should contain all the values from min (included) to
- * max (included), ordered from min to max
+ * Description: The array created should contain all the values
+ * from min (included) to max (included), ordered from min to max
  *
  * Parameters:
  * @min: minimum values included
@@ -25,7 +25,7 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	
+
 	/*Fill the array with values from min to max*/
 	array = malloc((max - min + 1) * sizeof(int));
 
@@ -33,11 +33,11 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	
+
 	for (i = 0; i <= max - min; i++)
 	{
 	/*Return the pointer to the newly created array*/
 	array[i] = min + i;
 	}
-	return(array);
+	return (array);
 }
