@@ -10,7 +10,7 @@
  * ..elements of size bytes each and returns a pointer to the allocated memory.
  *
  * @size: the size of the memory
- *
+ * @nmemb: array of nmemb elements
  * Return: a pointer to the allocated memory.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
