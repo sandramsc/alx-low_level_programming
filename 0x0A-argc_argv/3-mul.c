@@ -5,7 +5,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program prints all the arguments it receives.
+ * Description: This program multiplies two values.
  *
  * Parameters:
  * @argv: An array of strings containing the command line arguments
