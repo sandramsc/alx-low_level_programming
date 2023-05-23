@@ -5,10 +5,6 @@
 
 /**
  * struct dog - a new type struct dog
- * @name: Dog name
- * @age: Dog age
- * @owner: Dog owner
- * new_dog - ..
  *
  * Description: same as function desc..
  */
