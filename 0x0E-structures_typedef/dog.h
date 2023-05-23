@@ -18,7 +18,7 @@ struct dog
 	float age;
 	char *owner;
 };
-
+#endif
 struct dog *new_dog(char *name, float age, char *owner)
 {
 	struct dog *my_dog;
@@ -31,4 +31,3 @@ struct dog *new_dog(char *name, float age, char *owner)
 	my_dog->owner = owner;
 	return (my_dog);
 }
-#endif
