@@ -4,12 +4,13 @@
 #include <stdlib.h>
 
 /**
- * struct dog - a new type struct dog
+ * struct dog - dog parameters
  *
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
- *
+ * 
+ * struct new_do - a new type struct dog
  * Return: Always 0 (Success)
  */
 struct dog
@@ -18,7 +19,7 @@ struct dog
 	float age;
 	char *owner;
 };
-#endif
+
 struct dog *new_dog(char *name, float age, char *owner)
 {
 	struct dog *my_dog;
@@ -31,3 +32,4 @@ struct dog *new_dog(char *name, float age, char *owner)
 	my_dog->owner = owner;
 	return (my_dog);
 }
+#endif
