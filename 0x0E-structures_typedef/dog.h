@@ -11,7 +11,6 @@
  * @age: Dog age
  * @owner: Dog owner
  *
- * struct new_dog - a new type struct dog
  * Return: Always 0 (Success)
  */
 struct dog
@@ -20,7 +19,15 @@ struct dog
 	float age;
 	char *owner;
 };
-
+/**
+ * new_dog - a new type struct dog
+ *
+ * @name: Dog name
+ * @age: Dog age
+ * @owner: Dog owner
+ *
+ * Return: Always 0 (Success)
+ */
 struct dog *new_dog(char *name, float age, char *owner)
 {
 	struct dog *my_dog;
