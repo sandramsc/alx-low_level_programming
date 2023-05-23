@@ -5,14 +5,14 @@
 
 /**
  * struct dog - a new type struct dog
- * struct dog new_dog - function to allocate dog data
+ * 
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
  *
  * Description: same as function desc..
  *
- * Return: my dog data
+ * Return: Always 0 (Success)
  */
 struct dog
 {
@@ -33,5 +33,4 @@ struct dog *new_dog(char *name, float age, char *owner)
 	my_dog->owner = owner;
 	return (my_dog);
 }
-
 #endif
