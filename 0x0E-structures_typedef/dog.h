@@ -9,6 +9,7 @@
  * @age: Dog age
  * @owner: Dog owner
  *
+ * Return: Always 0 (Success)
  */
 struct dog
 {
