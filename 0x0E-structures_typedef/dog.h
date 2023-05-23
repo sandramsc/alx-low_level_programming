@@ -5,6 +5,7 @@
 
 /**
  * struct dog - a new type struct dog
+ * struct dog new_dog - function to allocate dog data
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
