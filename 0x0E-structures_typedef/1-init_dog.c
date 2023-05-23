@@ -1,28 +1,18 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * struct dog - dog parameters
- *
- * @name: Dog name
- * @age: Dog age
- * @owner: Dog owner
- *
- * Return: Always 0 (Success)
- */
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
+#include <stdio.h>
+#include "main.h"
+
 /**
  * init_dog - a program that initializes a variable of type struct dog
  *
+ * @d: pointer to members
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
  */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
@@ -32,3 +22,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	d->owner = owner;
 	}
 }
+#endif

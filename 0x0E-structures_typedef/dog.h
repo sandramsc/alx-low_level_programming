@@ -1,17 +1,18 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
 
-#include <stdlib.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * struct dog - dog parameters
+ * struct dog - a program that initializes a variable of type struct dog
+ *
+ * Paramters:
  *
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
  *
- * Return: Always 0 (Success)
+ * Description: All dog attributes
  */
 struct dog
 {
@@ -20,25 +21,11 @@ struct dog
 	char *owner;
 };
 /**
- * new_dog - a new type struct dog
+ * dog_type - Typedef for dog structure
  *
- * @name: Dog name
- * @age: Dog age
- * @owner: Dog owner
- *
- * Return: Always 0 (Success)
  */
+typedef struct dog dog_type;
 void init_dog(struct dog *d, char *name, float age, char *owner);
-struct dog *new_dog(char *name, float age, char *owner)
-{
-	struct dog *my_dog;
-
-	my_dog = malloc(sizeof(struct dog));
-	if (my_dog == NULL)
-		return (NULL);
-	my_dog->name = name;
-	my_dog->age = age;
-	my_dog->owner = owner;
-	return (my_dog);
-}
+void print_dog(struct dog *d);
+void free_dog(dog_type *d);
 #endif
