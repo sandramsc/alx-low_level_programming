@@ -9,8 +9,8 @@
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
- * 
- * struct new_do - a new type struct dog
+ *
+ * struct new_dog - a new type struct dog
  * Return: Always 0 (Success)
  */
 struct dog
