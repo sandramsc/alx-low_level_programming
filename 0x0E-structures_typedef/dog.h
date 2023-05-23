@@ -5,12 +5,10 @@
 
 /**
  * struct dog - a new type struct dog
- * 
+ *
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
- *
- * Description: same as function desc..
  *
  * Return: Always 0 (Success)
  */
