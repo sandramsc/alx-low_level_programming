@@ -9,7 +9,7 @@
  * @age: Dog age
  * @owner: Dog owner
  *
- * Return: Always 0 (Success)
+ * Description: same as function desc..
  */
 struct dog
 {
