@@ -28,6 +28,7 @@ struct dog
  *
  * Return: Always 0 (Success)
  */
+void init_dog(struct dog *d, char *name, float age, char *owner);
 struct dog *new_dog(char *name, float age, char *owner)
 {
 	struct dog *my_dog;
