@@ -6,20 +6,15 @@
 #include <stdlib.h>
 
 /**
- * new_dog - a program that frees dogs
- * 
+ * free_dog - a program that frees dogs
+ *
  * @d: the structure of the dog
- * @name: Dog name
- * @owner: Dog owner
  */
 
 void free_dog(dog_t *d)
 {
-	if (new_pup != NULL)
-	{
-		free(d->owner);
-		free(d->name);
-		free(d);	
-	}
+	free(d->owner);
+	free(d->name);
+	free(d);
 }
 #endif
