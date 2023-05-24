@@ -1,7 +1,6 @@
 #ifndef NAME_H
 #define NAME_H
 
-#include <stddef.h>
 #include "function_pointers.h"
 #include <stdio.h>
 /**
@@ -10,12 +9,15 @@
  * Description: a program that prints a name
  *
  * Parameters:
- * @name: the name
+ * @name: the input name
  * @f: the input function that prints the name
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	if (f != 0 && name != 0)
+	{
+		f(name);
+	}
 }
 
 #endif
