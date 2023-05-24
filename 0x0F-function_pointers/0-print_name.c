@@ -14,7 +14,6 @@
  * Parameters:
  * @name: the name
  *
- * Return: Always 0 (Success).
  */
 void print_f(char *name)
 {
@@ -28,7 +27,6 @@ void print_f(char *name)
  * Parameters:
  * @name: the name
  * @f: the pointer function
- * Return: Always 0 (Success).
  */
 void print_name(char *name, void (*f)(char *))
 {
