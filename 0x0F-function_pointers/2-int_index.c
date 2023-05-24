@@ -26,6 +26,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 		return (-1);
 	}
 
+	if (array == NULL)
+	{
+		return (-1);
+	}
 	/* Iterate over each element in the array */
 	for (i = 0; i < size; i++)
 	{
