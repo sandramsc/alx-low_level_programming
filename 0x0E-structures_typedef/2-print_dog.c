@@ -10,9 +10,6 @@
  *
  * Parameters:
  * @d: the structure of the dog
- * @name: Dog name
- * @age: Dog age
- * @owner: Dog owner
  */
 void print_dog(struct dog *d)
 {
