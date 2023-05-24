@@ -1,9 +1,8 @@
 #ifndef INDEX_H
 #define INDEX_H
+
 #include "function_pointers.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <stddef.h>
 
 /**
  * int_index - Entry point of program.
