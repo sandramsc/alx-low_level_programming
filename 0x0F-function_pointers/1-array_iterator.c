@@ -4,6 +4,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 /**
  * array_iterator - Entry point of program.
  *
@@ -18,7 +19,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
-	
+
 	if (array == NULL || action == NULL)
 		return;
 
