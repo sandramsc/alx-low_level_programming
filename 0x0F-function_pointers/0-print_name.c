@@ -4,21 +4,6 @@
 #include <stddef.h>
 #include "function_pointers.h"
 #include <stdio.h>
-#include <stdlib.h>
-
-/**
- * print_f - Entry point of program.
- *
- * Description: the calling function
- *
- * Parameters:
- * @name: the name
- *
- */
-void print_f(char *name)
-{
-	printf("%s\n", name);
-}
 /**
  * print_name - Entry point of program.
  *
