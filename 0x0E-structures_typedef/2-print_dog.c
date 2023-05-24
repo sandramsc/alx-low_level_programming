@@ -1,42 +1,26 @@
+#ifndef PRINT_H
+#define PRINT_H
+
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
-/**
- * struct_dog - a program that initializes a variable of type struct dog
- * 
- * @name: Dog name
- * @age: Dog age
- * @owner: Dog owner
- */
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
+
 /**
  * print_dog - a program that initializes a variable of type struct dog
- * 
+ *
+ * Parameters:
+ * @d: the structure of the dog
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
  */
 void print_dog(struct dog *d)
 {
-	struct dog *d;
-
-	d = malloc(sizeof(struct dog));
-	if (owner == NULL || age == NULL)
-		printf("(nil)");
-	if (name == NULL)
-		printf("Name: (nil)");
 	if (d != NULL)
 	{
-	d->name = name;
-	printf("Name: %s )"d.name);
-	d->age = age;
-	printf("Age: %.1f )"d.age);
-	d->owner = owner;
-	printf("Owner: %s )"d.name);
+		printf("Name: %s\n", (d->name) ? d->name : "(nil)");
+		printf("Age: %f\n", (d->age) ? d->age : 0);
+		printf("Owner: %s\n", (d->owner) ? d->owner : "(nil)");
 	}
 }
-
+#endif
