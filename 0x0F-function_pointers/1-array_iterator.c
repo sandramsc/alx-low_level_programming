@@ -3,7 +3,7 @@
 
 #include "function_pointers.h"
 #include <stdio.h>
-
+#include <stddef.h>
 /**
  * array_iterator - Entry point of program.
  *
