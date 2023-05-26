@@ -48,6 +48,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	/*Clean up the variadic arguments*/
 	va_end(args);
-	printf("\n");	
+	printf("\n");
 }
 #endif
