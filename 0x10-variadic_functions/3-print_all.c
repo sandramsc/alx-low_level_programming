@@ -16,49 +16,42 @@
  */
 void print_all(const char * const format, ...)
 {
+	int null_str = 0;
 	const char *ptr = format;
 	va_list args;
-
-	int int_arg;
-	char char_arg;
-	float float_arg;
-	char *str_arg;
-	int null_str = 0;
+	char *str_arg = NULL;
 
 	va_start(args, format);
 
 	while (*ptr)
 	{
-		if (*ptr == 'c')
+		switch (*ptr)
 		{
-			char_arg = (char)va_arg(args, int);
-			printf("%c, ", char_arg);
-		}
-		else if (*ptr == 'i')
-		{
-			int_arg = va_arg(args, int);
-			printf("%d, ", int_arg);
-		}
-		else if (*ptr == 'f')
-		{
-			float_arg = (float)va_arg(args, double);
-			printf("%f, ", float_arg);
-		}
-		else if (*ptr == 's')
-		{
-			str_arg = va_arg(args, char *);
-			if (str_arg == NULL)
-			{
-				printf("(nil)");
-				null_str = 1;
-			}
-			else
-			{
-				printf("%s", str_arg);
-			}
+			case 'c':
+				printf("%c, ", (char)va_arg(args, int));
+				break;
+			case 'i':
+				printf("%d, ", va_arg(args, int));
+				break;
+			case 'f':
+				printf("%f, ", (float)va_arg(args, double));
+				break;
+			case 's':
+				str_arg = va_arg(args, char *);
+				if (str_arg == NULL)
+				{
+					printf("(nil)");
+					null_str = 1;
+				}
+				else
+				{
+					printf("%s", str_arg);
+				}
+				break;
 		}
 		ptr++;
 	}
+
 	va_end(args);
 	if (!null_str)
 		printf("\n");
