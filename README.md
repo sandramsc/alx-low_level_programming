@@ -1,62 +1,55 @@
-<!-- PROJECT TITLE -->
-  <h1 align="center">ALX - Low level programming</h1>
- <h2 2 align="center">
-  Month 0
-    <br />
-    </h2>
+# Low Level Programming
 
-## Application Description
+## Introduction 
 
-introduction to shell/linux/git/c programming and the world that is alx software engineering program 2023
+<br/>
 
-## Table of Contents
+## Description About the Directories 
 
-<details>
-<summary>Month0</summary>
+| DIRECTORY |
+| :--- |
+0x00-hello_world
+0x01-variables_if_else_while
+0x02-functions_nested_loops
+0x03-debugging
+0x04-more_functions_nested_loops
+0x05-pointers_arrays_strings
+0x06-pointers_arrays_strings
+0x07-pointers_arrays_strings
+0x08-recursion
+0x09-static_libraries
+0x0A-argc_argv
+0x0B-malloc_free
+0x0C-more_malloc_free
+0x0D-preprocessor
+0x0E-structures_typedef
+0x0F-function_pointers
+0x10-variadic_functions
 
-- [Application Description](#application-description)
-- [Table of Contents](#table-of-contents)
-- [Project Demo](#demo)
-- [Screenshots](#screenshots)
-- [Technology Stack](#technology-stack)
-- [Features](#features)
-- [How to use the app](#how-to-use-the-app)
-- [Collaborators](#collaborators)
-- [References](#references)
-- [License](#license)
+### Prerequisites
 
-</details>
+What things you need to install
+- **Ubuntu 14.04 LTS** on a Vagrant (Virtualbox) enviroment 
+- **shellcheck** to check the style to files bash
+- **Git** to clone the repository
 
-## Technology Stack
+## Environment
 
-| Technology       | Description                                   |
-| ---------------- | --------------------------------------------- |
-| Git     | version controle system                              |
-| GitHub       | platform to share, collaborate and create awesome tech in the cloud                     |
-| Linux        | linux is a family of open-source Unix-like operating systems based on the Linux kernel                            |
-| Emacs           |  the extensible, customizable, self-documenting real-time display editor                     |
-| VIM          | a highly configurable text editor built to make creating and changing any kind of text very efficient                      |
+- Language: Bash script  
+- OS: Ubuntu 14.04 LTS
+- Style guidelines: Betty to check if the style in files bash is correct
 
-## Features
-
-1. Intro to Git & Github for Software Engineering
-
-2. Intro to Linux, Emacs and VIM
-
-2. Intro to Low level programing
 
 **Step #1** - Clone the project
 
 ```bash
 $ git clone https://github.com/sandramsc/alx-low_level_programming.git
 ```
+## Usage 
 
-**Step #2**
-
-- Install dependencies in both frontend and backend folders: `npm i` OR `yarn`
-
-- To start the webapp, run: `npm start` OR `yarn start`
-
+```sh
+./[executable file]
+```
 
 ## Authors
 
