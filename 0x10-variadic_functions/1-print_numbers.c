@@ -22,24 +22,20 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 
 	va_start(args, n);
-
 	/* Iterate through the numbers */
 	for (i = 0; i < n; i++)
 	{
 		/* Print the current number */
-		printf("%d", va_arg(args, int));
-	}
+		printf("%d", va_arg(args, const unsigned int));
+
 		/* Print the separator if it is not NULL and not the last number */
-	if (separator != NULL && i < n - 1)
-	{
-		printf("%s", separator);
+		if (separator != NULL && i != (n - 1))
+			printf("%s", separator);
 	}
-
-	/* Clean up the variadic arguments */
-	va_end(args);
-
 	/* Print a new line */
 	printf("\n");
+	
+	/* Clean up the variadic arguments */
+	va_end(args);
 }
-
 #endif
