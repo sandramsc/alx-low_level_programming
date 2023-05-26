@@ -34,7 +34,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	/* Print a new line */
 	printf("\n");
-	
+
 	/* Clean up the variadic arguments */
 	va_end(args);
 }
