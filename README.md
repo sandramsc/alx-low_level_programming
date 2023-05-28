@@ -1,5 +1,8 @@
 # Low Level Programming
 
+## Introduction
+This repository contains programs for the low level programming curriculum at Holberton School.
+
 ### Prerequisites
 
 What things you need to install
