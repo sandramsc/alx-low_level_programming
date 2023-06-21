@@ -38,6 +38,6 @@ This repository contains programs written for the low level programming tought a
 | Sandra Ashipala | https://www.linkedin.com/in/sandraashipala/ |
 
 ## License
-[![GitLicense](https://img.shields.io/badge/License-MIT-lime.svg)](https://github.com/sandramsc/alx-system_engineering-devops/blob/master/LICENSE.md)
+[![GitLicense](https://img.shields.io/badge/License-MIT-lime.svg)](https://github.com/sandramsc/system_engineering-devops/blob/master/LICENSE.md)
 
 
