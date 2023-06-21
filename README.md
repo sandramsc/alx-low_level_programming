@@ -6,9 +6,9 @@
 This repository contains programs written for the low level programming tought at [Holberton School](https://www.holbertonschool.com/).
 
 ## Technologies
-* C files are complied using `gcc 4.8.4`
-* C files are written according to C90 standard
-* tested on Ubuntu 14.04 LTS
+* C files are compiled using gcc 9.4.0.
+* C files are written according to the C99 standard.
+* Tested on Ubuntu 20.04 LTS.
 
 ## Projects 
 | Project | Description |
