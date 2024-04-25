@@ -1,5 +1,8 @@
 <!-- PROJECT TITLE -->
   <h1 align="center">Low Level Programming</h1>
+   <div id="header" align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" width="250"/>
+</div>
 
 ## Application Description
 
