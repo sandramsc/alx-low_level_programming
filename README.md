@@ -6,7 +6,7 @@
 
 ## Application Description
 
-This repository contains programs written for the low level programming tought at [Holberton School](https://www.holbertonschool.com/).
+This repository contains programs written in C tought at [Holberton School](https://www.holbertonschool.com/) to learn C programming.
 
 ## Technologies
 * C files are compiled using gcc 9.4.0.
